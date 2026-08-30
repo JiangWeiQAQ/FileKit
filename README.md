@@ -13,9 +13,11 @@
 
 ## 📱 界面预览 (Screenshots)
 
-<div align="center">
-  <img src="docs/screenshot.jpg" width="360" alt="FileKit 界面预览" />
-</div>
+<p align="center">
+  <img src="docs/screenshot-home.jpg" width="340" alt="FileKit 初始选择界面" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/screenshot.jpg" width="340" alt="FileKit 文件识别与功能操作" />
+</p>
 
 ---
 
