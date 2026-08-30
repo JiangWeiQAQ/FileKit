@@ -7,6 +7,26 @@
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20iPadOS-lightgrey.svg)](https://scripting.app)
 [![Language](https://img.shields.io/badge/language-TypeScript%20%7C%20Python-blue.svg)](index.tsx)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/JiangWeiQAQ/FileKit?color=orange)](https://github.com/JiangWeiQAQ/FileKit/releases/latest)
+
+---
+
+## 🚀 安装与导入 (Installation)
+
+### 方式 1：一键导入 Scripting (One-Click Import)
+在 iOS / iPadOS 设备上点击下方链接即可直接在 Scripting 中导入本项目：
+
+- [**📦 一键导入 FileKit 到 Scripting**](https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip)
+
+> **快捷导入链接**：
+> - **Web 引导页**：`https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip`
+> - **App URL Scheme**：`scripting://import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip`
+
+### 方式 2：Git 克隆 (Clone via Git)
+在 Scripting 内置的 Git 工具中克隆：
+```bash
+https://github.com/JiangWeiQAQ/FileKit.git
+```
 
 ---
 
