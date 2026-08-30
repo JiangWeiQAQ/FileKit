@@ -16,11 +16,11 @@
 ### 方式 1：一键导入 Scripting (One-Click Import)
 在 iOS / iPadOS 设备上点击下方链接即可直接在 Scripting 中导入本项目：
 
-- [**📦 一键导入 FileKit 到 Scripting**](https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip)
+- [**📦 一键导入 FileKit 到 Scripting (最新版本)**](https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip)
 
 > **快捷导入链接**：
-> - **Web 引导页**：`https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip`
-> - **App URL Scheme**：`scripting://import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip`
+> - **最新 main 分支（始终最新）**：`https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip`
+> - **v3.2.0 固定发布版**：`https://scripting.run/import?url=https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Ftags%2Fv3.2.0.zip`
 
 ### 方式 2：Git 克隆 (Clone via Git)
 在 Scripting 内置的 Git 工具中克隆：
