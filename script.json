@@ -1,0 +1,21 @@
+{
+  "name": "FileKit",
+  "icon": "shippingbox.fill",
+  "color": "#3478F6",
+  "version": "3.2.0",
+  "description": "A native-first file processing toolbox for Scripting.",
+  "localizedNames": {
+    "en": "FileKit",
+    "zh": "FileKit 文件工具箱"
+  },
+  "localizedDescriptions": {
+    "en": "Select, inspect and process files with native Scripting APIs.",
+    "zh": "使用 Scripting 原生 API 选择、识别和处理文件。"
+  },
+  "entry": "index.tsx",
+  "intentInputTypes": [
+    "FileURLs",
+    "Images"
+  ],
+  "runInApp": true
+}
