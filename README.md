@@ -25,18 +25,16 @@
 
 ### 方式 1：一键导入 Scripting (One-Click Import)
 
-在 iOS / iPadOS 上，可以通过网页跳转中转或点击下方链接导入：
+复制下方官方导入链接，在 **iOS / iPadOS Safari 浏览器地址栏中粘贴并打开**，系统将自动呼起 Scripting 下载并导入：
 
-- [**🌐 点击通过中转网页导入 (推荐 Safari / 浏览器打开)**](https://jiangweiqaq.github.io/FileKit/)
-- [**📦 直接呼起 App 导入 (scripting:// 协议)**](scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D)
+```text
+scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D
+```
 
-> **复制导入链接**（若在某些客户端内无法直接点击自定义协议，可复制以下链接到 Safari 浏览器地址栏打开）：
-> ```text
-> scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D
-> ```
+*(提示：由于 GitHub 网页的安全策略会过滤 `scripting://` 协议超链接，请直接复制上方链接在 Safari 中打开即可唤起应用)*
 
 ### 方式 2：Git 克隆 (Clone via Git)
-在 Scripting 内置的 Git 工具中克隆：
+在 Scripting App 内置的 **Git 工具** 中输入仓库地址克隆，后续可直接在 App 内 Pull 获取更新：
 ```bash
 https://github.com/JiangWeiQAQ/FileKit.git
 ```
