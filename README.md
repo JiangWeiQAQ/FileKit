@@ -11,6 +11,14 @@
 
 ---
 
+## 📱 界面预览 (Screenshots)
+
+<div align="center">
+  <img src="docs/screenshot.jpg" width="360" alt="FileKit 界面预览" />
+</div>
+
+---
+
 ## 🚀 安装与导入 (Installation)
 
 ### 方式 1：一键导入 Scripting (One-Click Import)
