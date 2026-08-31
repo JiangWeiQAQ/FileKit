@@ -25,12 +25,11 @@
 
 ### 方式 1：一键导入 Scripting (One-Click Import)
 
-- 👉 [**点击直接唤起 Scripting 导入最新版**](scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D)
+✅ **下面的“一键导入”按钮已验证可以使用，请直接点击按钮**，它会调用 Scripting 官方 `import_scripts` 协议并导入 `main` 分支的最新版本：
 
-> **复制导入链接**（支持在 iOS / iPadOS Safari 浏览器地址栏直接粘贴打开）：
-> ```text
-> scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D
-> ```
+- 👉 [**点击一键导入 FileKit 到 Scripting（最新版本）**](scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D)
+
+> **说明**：请使用上方的“一键导入”超链接。此前单独展示的原始 `scripting://` 文本链接在 GitHub 或部分客户端中可能被当作普通文本，点击或复制后无法正常唤起 Scripting，因此已改为使用上方已验证可用的链接入口。
 
 ### 方式 2：Git 克隆 (Clone via Git)
 在 Scripting App 内置的 **Git 工具** 中输入仓库地址克隆，后续可直接在 App 内 Pull 获取更新：
