@@ -23,13 +23,18 @@
 
 ## 🚀 安装与导入 (Installation)
 
-### 方式 1：一键导入 Scripting (One-Click Import)
+### 方式 1：从 GitHub 一键导入 Scripting (One-Click Import)
 
-✅ **下面的“一键导入”按钮已验证可以使用，请直接点击按钮**，它会调用 Scripting 官方 `import_scripts` 协议并导入 `main` 分支的最新版本：
+> **请点击下面的 HTTPS 中转链接**。GitHub 为安全起见会过滤 `scripting://` 自定义协议，因此直接把 `scripting://...` 写进 README 在 GitHub 页面上不会真正跳转。
 
-- 👉 [**点击一键导入 FileKit 到 Scripting（最新版本）**](scripting://import_scripts?urls=%5B%22https%3A%2F%2Fgithub.com%2FJiangWeiQAQ%2FFileKit%2Farchive%2Frefs%2Fheads%2Fmain.zip%22%5D)
+- 👉 [**点击一键导入 FileKit 到 Scripting（最新版）**](https://htmlpreview.github.io/?https://raw.githubusercontent.com/JiangWeiQAQ/FileKit/main/docs/index.html)
 
-> **说明**：请使用上方的“一键导入”超链接。此前单独展示的原始 `scripting://` 文本链接在 GitHub 或部分客户端中可能被当作普通文本，点击或复制后无法正常唤起 Scripting，因此已改为使用上方已验证可用的链接入口。
+打开中转页后会自动尝试呼起 Scripting；如果系统没有自动跳转，请点击页面中的蓝色按钮。该页面指向 `main` 分支，因此始终获取最新代码。
+
+- [下载最新版 ZIP（手动导入备用）](https://github.com/JiangWeiQAQ/FileKit/archive/refs/heads/main.zip)
+
+> **为什么不直接把 `scripting://` 放在 GitHub README 中？**
+> GitHub 会移除这类自定义协议的 `href`，页面上只保留文字，所以点击不会有反应。`scripting://import_scripts?...` 只能在支持自定义协议的环境中使用，不能作为 GitHub README 的直接点击入口。
 
 ### 方式 2：Git 克隆 (Clone via Git)
 在 Scripting App 内置的 **Git 工具** 中输入仓库地址克隆，后续可直接在 App 内 Pull 获取更新：
